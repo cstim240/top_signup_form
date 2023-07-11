@@ -129,9 +129,9 @@ form {
     font-weight:400;
 }
 
-.quote {
+.testimony .quote {
     font-style: italic;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .entries {
