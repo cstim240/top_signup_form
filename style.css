@@ -118,7 +118,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding: 30px;
+    padding: 40px;
     margin-bottom: 50px;
     gap: 50px;
     color: wheat;
@@ -136,13 +136,28 @@ form {
 
 .entries {
     height: 30vh;
-    padding: 30px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     background-color: #33ffad;
+    gap: 50px;
+}
+
+.inputVals {
+    display: flex;
+    gap: 50px;
+}
+
+.leftEntries, .rightEntries {
+    display: flex;
+    flex-direction: column;
 }
 
 
+
+#phrase {
+    font-size: 20px;
+}
 
 @media (max-width: 890px){ /*for mobile responsiveness*/
     html,body{
