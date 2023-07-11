@@ -197,7 +197,7 @@ input {
     }
 
     .background {
-        max-height: 300px;
+        height: 350px;
     }
 
     .logo {
