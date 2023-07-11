@@ -169,6 +169,7 @@ input {
     border: 1px solid #ececec;
     border-radius: 8px;
     width: 30vh;
+    background-color: #f5f5f5;
 }
 
 input:focus{
