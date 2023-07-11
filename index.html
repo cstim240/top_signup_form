@@ -18,7 +18,7 @@
     
     <div class="regForm">
 
-        <form action="www.petsmart.ca" method="get">
+        <form action="https://cstim240.github.io/OP_Landing_Page/" method="get">
             <div class="statements">
                 <p>
                     This is NOT a real online service! Is your dog showing signs of 
@@ -72,17 +72,26 @@
                     </div>
                 </div>
 
-                <button id="createAccount">Create Account</button>
-
-
+                <button id="createAccount" href="https://www.youtube.com/watch?v=i1GmxMTwUgs">Create Account</button>
             </div>
-
-            
+  
             <p id="login"> Already have an account? 
                 <a id="loginLink" href="https://www.youtube.com/watch?v=i1GmxMTwUgs">Log in</a>
             </p>
         </form>
     </div>
 
+    <script>
+        let createAccount = document.getElementById("createAccount");
+        let password = document.getElementById("password");
+        let confirmPassword = document.getElementById("confirm_password");
+        createAccount.addEventListener('click', function (){
+            if (password.value != confirmPassword.value){
+                confirmPassword.setCustomValidity("Passwords don't match!");
+            } else {
+                confirmPassword.setCustomValidity("");
+            }
+        });
+    </script>
 </body>
 </html>
