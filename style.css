@@ -182,8 +182,8 @@ input {
 }
 
 #login {
-    padding-left: 40px;
-    padding-top: 20px;
+    padding: 20px 0px 20px 40px;
+
 }
 
 #loginLink {
@@ -191,7 +191,7 @@ input {
     text-decoration: none;
 }
 
-@media (max-width: 890px){ /*for mobile responsiveness*/
+@media (max-width: 1150px){ /*for mobile responsiveness*/
     html,body{
         flex-direction: column;
     }
@@ -202,6 +202,10 @@ input {
 
     .logo {
         margin-bottom: 70px;
+    }
+
+    .entries {
+        height: 80vh;
     }
 }
 
