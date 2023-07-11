@@ -204,6 +204,10 @@ input {
         height: 350px;
     }
 
+    .statements {
+        height: 25vh;
+    }
+
     .logo {
         margin-bottom: 70px;
     }
