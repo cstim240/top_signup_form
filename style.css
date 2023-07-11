@@ -114,12 +114,12 @@ form {
 }
 
 .statements {
-    height: 30vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: end;
     padding: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     gap: 50px;
     color: wheat;
 }
@@ -135,7 +135,7 @@ form {
 }
 
 .entries {
-    height: 35vh;
+    height: 45vh;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -145,7 +145,7 @@ form {
 
 .inputVals {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     gap: 80px;
 }
 
@@ -171,6 +171,15 @@ input {
 
 #phrase {
     font-size: 20px;
+}
+
+#createAccount {
+    width: 180px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+
 }
 
 @media (max-width: 890px){ /*for mobile responsiveness*/
