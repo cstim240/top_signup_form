@@ -131,6 +131,7 @@ form {
 .testimony .quote {
     font-style: italic;
     font-size: 30px;
+    font-family: my-cool-font, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .entries {
