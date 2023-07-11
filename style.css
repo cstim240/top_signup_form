@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My CSS styles below! */
+
+@font-face {
+    font-family: my-cool-font;
+    src: url("./Norse-Bold.otf");
+}
+
+html,body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background {
+    background-image: url("./images/nala1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex: 1 1 0;
+    min-width: 40%;
+    min-height: 60%;
+}
+
+.logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: my-cool-font, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: #FFFDD0;
+   background-color: black;
+   opacity: 0.4;
+   font-size: 45px;
+   font-weight: bold;
+   margin-bottom: 500px;
+}
+
+#odinlogo {
+    height: 90px;
+    min-width: 0;
+    padding: 15px;
+}
+
+#companyName {
+    min-width: 0;
+}
+
+.credit {
+    color: white;
+    font-style: italic;
+    align-self: center;
+    font-size: small;
+    margin-bottom: 3px;
+}
+
+.regForm {
+    background-color: #e6fff5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.statements {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 30px;
+    margin-bottom: 50px;
+    gap: 50px;
+    color: wheat;
+}
+
+.statements p {
+    font-size: large;
+    font-weight:400;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 40px;
+}
+
+.entries {
+    height: 30vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #33ffad;
+}
+
+
+
+@media (max-width: 890px){ /*for mobile responsiveness*/
+    html,body{
+        flex-direction: column;
+    }
+
+    .background {
+        max-height: 300px;
+    }
+
+    .logo {
+        margin-bottom: 70px;
+    }
+}
+
+
+
